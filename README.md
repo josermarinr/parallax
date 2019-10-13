@@ -112,4 +112,4 @@ body{
 ```
 >alors, pour le style on doit mettre 0 margin et padding 0; le type de police que vous utilisez sera ce que vous convient :simple_smile:. pour le "container" on le utilise pour positioner le "Bg" sans repetition et avec un hauteur de 100vh et le 100% du longeur du scran. la classe "scene" et "layer" on le donne le heuteur de 100% du container et 100% de longeur; pour les "layer" on le donne position absolute et on commence a positioner chaque elemente dans le endroit de notre choix, pour le astronaut on utilise le milieux avec le 50% de dimention, le title on le donne position derrier au astronaut et aussi pour  autres elements.
 
-resultat [mar1n]. c'est le moment de faire rouler votre imagination :simple_smile: :simple_smile: :simple_smile:
+resultat [mar1n]. c'est le moment de faire rouler votre imagination :smile: :smile: :smile: :smile:
