@@ -1,0 +1,524 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" );
+@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap" );
+@import url("https://fonts.googleapis.com/css?family=Notable&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(https://i.postimg.cc/t4s7LVNC/bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+.scene,
+.layer {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.scene {
+  min-height: 460px;
+  position: relative;
+  overflow: hidden; }
+
+.layer {
+  position: absolute; }
+
+.astronaut{
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+#title{
+  color: #ffffff;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  font-size: 20px;
+  z-index: -7;
+  
+}
+.title{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 10rem;
+  -webkit-animation: textgravitie 8s 0.1s infinite linear;
+  -moz-animation: textgravitie 8s 0.1s infinite linear;
+  animation: textgravitie 8s 0.1s infinite linear;
+}
+#subtitle{
+  color: #ffffff;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  font-size: 20px;
+  z-index: 10;
+  
+}
+.subtitle{
+  position: absolute;
+  top: 70%;
+  left: 35%;
+   -webkit-animation: textgravitie 8s 0.1s infinite linear;
+  -moz-animation: textgravitie 8s 0.1s infinite linear;
+  animation: textgravitie 8s 0.1s infinite linear;
+}
+.textfoot{
+  position: absolute;
+  bottom: 5%;
+  right: 40%;
+}
+#astronaut-li{
+    text-align: center;
+    align-items: center;
+    transform: translate(50%, 50%);
+}
+.planetp1{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    bottom: 0%;
+    left: 50%;
+    -webkit-animation: kepler 5s 0.1s infinite linear;
+    -moz-animation: kepler 5s 0.1s infinite linear;
+    animation: kepler 5s 0.1s infinite linear;
+}
+.planetp2{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    right: 40%;
+    -webkit-animation: kepler 4s 0.1s infinite linear;
+    -moz-animation: kepler 4s 0.1s infinite linear;
+    animation: kepler 4s 0.1s infinite linear;
+}
+.planetp3{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 60%;
+    left: 20%;
+    -webkit-animation: kepler 4.5s 0.1s infinite linear;
+    -moz-animation: kepler 4.5s 0.1s infinite linear;
+    animation: kepler 4.5s 0.1s infinite linear;
+}
+.planetp4{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 5%;
+    left: 40%;
+    -webkit-animation: kepler 5s 0.1s infinite linear;
+    -moz-animation: kepler 5s 0.1s infinite linear;
+    animation: kepler 5s 0.1s infinite linear;
+}
+.planetp5{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 80%;
+    left: 5%;
+    -webkit-animation: kepler 3.5s 0.1s infinite linear;
+    -moz-animation: kepler 3.5s 0.1s infinite linear;
+    animation: kepler 3.5s 0.1s infinite linear;
+}
+.planetp6{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 40%;
+    left: 90%;
+    -webkit-animation: kepler 3.5s 0.1s infinite linear;
+    -moz-animation: kepler 3.5s 0.1s infinite linear;
+    animation: kepler 3.5s 0.1s infinite linear;
+}
+.planetb1{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    left: 80%;
+    -webkit-animation: kepler 7s 0.1s infinite linear;
+    -moz-animation: kepler 7s 0.1s infinite linear;
+    animation: kepler 7s 0.1s infinite linear;
+}
+.planetb2{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    bottom: 10%;
+    left: 30%;
+    -webkit-animation: kepler 8s 0.1s infinite linear;
+    -moz-animation: kepler 8s 0.1s infinite linear;
+    animation: kepler 8s 0.1s infinite linear;
+}
+.planetb3{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 10%;
+    left: 10%;
+    -webkit-animation: kepler 6s 0.1s infinite linear;
+    -moz-animation: kepler 6s 0.1s infinite linear;
+    animation: kepler 6s 0.1s infinite linear;
+}
+.planetb4{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 40%;
+    left: 10%;
+    -webkit-animation: kepler 8s 0.1s infinite linear;
+    -moz-animation: kepler 8s 0.1s infinite linear;
+    animation: kepler 8s 0.1s infinite linear;
+}
+.planetb6{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 8%;
+    left:20%;
+    -webkit-animation: kepler 6s 0.1s infinite linear;
+    -moz-animation: kepler 6s 0.1s infinite linear;
+    animation: kepler 6s 0.1s infinite linear;  
+}
+.planetb7{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    bottom: 15%;
+    right: 20%;
+    -webkit-animation: kepler 8s 0.1s infinite linear;
+    -moz-animation: kepler 8s 0.1s infinite linear;
+    animation: kepler 8s 0.1s infinite linear;
+}
+.planetb8{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 35%;
+    right:20%;
+    -webkit-animation: kepler 8s 0.1s infinite linear;
+    -moz-animation: kepler 8s 0.1s infinite linear;
+    animation: kepler 8s 0.1s infinite linear;
+}
+.credit{
+  position: fixed;
+  bottom: 2%;
+  color: white;
+  opacity: 70%;
+  font-size: 8px;
+}
+
+@-webkit-keyframes kepler {
+    0% {
+      -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
+    } 
+}
+  @-moz-keyframes kepler {
+    0% {
+      -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
+    } 
+}
+  @-ms-keyframes kepler {
+    0% {
+      -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
+    } 
+}
+  @keyframes kepler {
+    0% {
+      -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+      transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg); 
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+      transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg); 
+    } 
+}
+/*
+//------------------------------------------
+*/
+
+@-webkit-keyframes textgravitie {
+  0% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  25%{
+    -webkit-transform:  translate(0,10%) ;
+    -moz-transform:  translate(0,10%) ;
+    transform:  translate(0,10%) ; 
+  }
+  50%{
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  75%{
+    -webkit-transform:  translate(0,-10%) ;
+    -moz-transform:  translate(0,-10%) ;
+    transform:  translate(0,-10%) ; 
+  }
+  100% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  } 
+}
+@-moz-keyframes textgravitie {
+  0% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  25%{
+    -webkit-transform:  translate(0,10%) ;
+    -moz-transform:  translate(0,10%) ;
+    transform:  translate(0,10%) ; 
+  }
+  50%{
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  75%{
+    -webkit-transform:  translate(0,-10%) ;
+    -moz-transform:  translate(0,-10%) ;
+    transform:  translate(0,-10%) ; 
+  }
+  100% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  } 
+}
+@-ms-keyframes textgravitie {
+  0% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  25%{
+    -webkit-transform:  translate(0,10%) ;
+    -moz-transform:  translate(0,10%) ;
+    transform:  translate(0,10%) ; 
+  }
+  50%{
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  75%{
+    -webkit-transform:  translate(0,-10%) ;
+    -moz-transform:  translate(0,-10%) ;
+    transform:  translate(0,-10%) ; 
+  }
+  100% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  } 
+}
+@keyframes textgravitie {
+  0% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  25%{
+    -webkit-transform:  translate(0,10%) ;
+    -moz-transform:  translate(0,10%) ;
+    transform:  translate(0,10%) ; 
+  }
+  50%{
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  }
+  75%{
+    -webkit-transform:  translate(0,-10%) ;
+    -moz-transform:  translate(0,-10%) ;
+    transform:  translate(0,-10%) ; 
+  }
+  100% {
+    -webkit-transform:  translate(0,0) ;
+    -moz-transform:  translate(0,0) ;
+    transform:  translate(0,0) ; 
+  } 
+}
+
+.rrss{
+  display: flex;
+  width: auto;
+  height: 10%;
+  position: fixed;
+  right: 0%;
+  bottom: 4%;
+  text-align: right;
+  align-items:flex-end;
+}
+.elementRs{
+  padding: 10px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .title{
+   left: 5%;
+ }
+
+ .astronaut{
+   width: 100%;
+   position: absolute;
+   top: 30%;
+   left: 5%;
+ }
+ .subtitle{
+   top: 60%;
+   left: 30%;
+ }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .title{
+    top:-20%;
+    left: 15%;
+  }
+ 
+  .astronaut{
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .subtitle{
+    top: 70%;
+    left: 30%;
+  }
+   
+ 
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .title{
+    top: 10%;
+    left: 25%;
+    font-size: 5rem;
+  }
+ 
+  .astronaut{
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+  }
+  .subtitle{
+    font-size: 1rem;
+    top: 50%;
+    left: 25%;
+  }
+   
+ .textfoot{
+   font-size: 1rem;
+   bottom: 25%;
+   left: -5%;
+ }
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .title{
+    top: 10%;
+    left: 2%;
+    font-size: 5rem;
+  }
+ 
+  .astronaut{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .subtitle{
+    font-size: 1rem;
+    top: 60%;
+    left: 8%;
+  }
+   
+ .textfoot{
+   font-size: 1rem;
+   bottom: 15%;
+   left: -5%;
+ }
+  .planetp1,
+  .planetp2,
+  .planetp3,
+  .planetp4,
+  .planetp5,
+  .planetp6,
+  .planetb1,
+  .planetb2,
+  .planetb3,
+  .planetb4,
+  .planetb5,
+  .planetb6,
+  .planetb7,
+  .planetb8{
+    width: 20%;
+  }
+  .elementRs{
+    width: 30px;
+    padding: 20px;
+  }
+}
