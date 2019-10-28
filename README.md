@@ -1,4 +1,4 @@
-[mar1n]: www.mar1n.com
+[mar1n]: https://mar1n.com/parallax/
 ![mar1n](https://i.postimg.cc/X7S6L6G1/parallax.gif)
 
 ### **pour voir l'implementation final [mar1n]**
